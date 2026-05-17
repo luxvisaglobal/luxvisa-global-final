@@ -1466,7 +1466,7 @@ function App() {
               </p>
               <div className="flex gap-3">
                 <a
-                  href="https://facebook.com/LuxVisaGlobalServices"
+                  href="https://www.facebook.com/profile.php?id=61589181126131"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-9 h-9 rounded-full bg-white/10 hover:bg-brand-accent transition-colors"
