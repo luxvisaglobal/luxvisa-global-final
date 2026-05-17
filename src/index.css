@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #001050;
+  --color-brand-secondary: #0050D0;
+  --color-brand-accent: #0A6CFF;
+  --color-brand-text: #1A1A1A;
+  --color-brand-bg: #F5F8FF;
+  --color-brand-white: #FFFFFF;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --font-accent: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  @apply bg-brand-white text-brand-text;
+}
+
+/* Theme 1 Professional Classes */
+.corporate-card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 16, 80, 0.05);
+  transition: all 0.3s ease;
+}
+
+.corporate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 16, 80, 0.1);
+}
+
+.corporate-nav {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 2px 15px rgba(0, 16, 80, 0.05);
+}
+
+.soft-shadow {
+  box-shadow: 0 4px 15px rgba(0, 16, 80, 0.06);
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
